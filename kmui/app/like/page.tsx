@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { PlayIcon, HeartIcon } from '@heroicons/react/solid'
+import { PlayIcon, HeartIcon } from '@heroicons/react/24/solid'
 
 const LikedSongsPage: React.FC = () => {
   const [likedSongs, setLikedSongs] = useState([

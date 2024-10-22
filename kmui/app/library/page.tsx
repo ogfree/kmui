@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 //@ts-ignore
-import { PlayIcon, PlusIcon } from '@heroicons/react/solid'
+import { PlayIcon, PlusIcon } from '@heroicons/react/24/solid'
 
 const LibraryPage: React.FC = () => {
   const [playlists, setPlaylists] = useState([
